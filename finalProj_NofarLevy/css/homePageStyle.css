@@ -1,0 +1,197 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url("../pages/images/beautiful-shining-stars-night-sky.jpg");
+    background-color: #0f1b28;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#welcomeH1 {
+    color: #e0eff2;
+    text-shadow: -4px 3px 0 #0a0e27, -6px 5px 0 #b649db;
+}
+
+#serch_input {
+    width: 50%;
+}
+
+#nav_logo{
+    height:100%;
+}
+
+
+.card_row {
+    padding: 20px;
+}
+
+.card{
+    float:left;
+}
+
+/* The heart of the matter */
+.testimonial-group > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+    .testimonial-group > .row > .col-xs-4 {
+        display: inline-block;
+        float: none;
+    }
+
+    .card:hover{
+        cursor:pointer;
+    }
+
+/* Decorations */
+.col-xs-4 {
+    color: #fff;
+    font-size: 48px;
+    padding-bottom: 20px;
+    padding-top: 18px;
+}
+
+    .col-xs-4:nth-child(3n+1) {
+        background: #c69;
+    }
+
+    .col-xs-4:nth-child(3n+2) {
+        background: #9c6;
+    }
+
+    .col-xs-4:nth-child(3n+3) {
+        background: #69c;
+    }
+
+/*scroll-bar-css*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(102, 93, 102,0.3);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #9d3be1;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+
+.seriesHeader{
+    font-size:4rem;
+    
+}
+
+.seriesDiv, .episodeDiv, .commentsDiv, .ActorsDiv {
+    background-color: rgba(33, 37, 41,0.8);
+    margin-top: 20px;
+    border: solid 1px #ff66c4;
+}
+
+
+.episodeDiv, .ActorsDiv {
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.overviewP {
+    font-size: 1.5rem;
+}
+
+.seriesMainImg, .episode_img {
+    width: 100%;
+}
+
+.seriesInfo{
+    height:60%;
+}
+
+.right , .left{
+    height:100%;
+    float:left;
+}
+
+#usersTableDiv {
+    background-color: white;
+    margin:30px;
+}
+
+/*comment style*/
+/*-- Global Selectors --*/
+a {
+    color: #47649F;
+}
+
+body {
+    font-family: 'helvetica';
+}
+
+/*-- Bootstrap Override Style --*/
+
+
+/*-- Content Style --*/
+.post-footer-option li {
+    float: left;
+    margin-right: 50px;
+    padding-bottom: 15px;
+}
+
+    .post-footer-option li a {
+        color: black;
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+
+.photo-profile {
+    border: 1px solid #DDD;
+}
+
+.anchor-username h4 {
+    font-weight: bold;
+}
+
+.anchor-time {
+    color: black;
+    font-size: 1.2rem;
+}
+
+.post-footer-comment-wrapper {
+    background-color: #F6F7F8;
+}
+
+.list-unstyled li {
+    display: inline;
+}
+
+.comment{
+    border:1px solid gray;
+    margin:20px;
+    
+   
+}
+
+.ActorsDiv{
+    height:30rem;
+}
+
+.ActorsDiv img{
+    height:100%;
+}
+
+.settingDiv{
+    background-color:rgba(255,255,255,0.5);
+    border:2px solid #b649db;
+
+}
+
